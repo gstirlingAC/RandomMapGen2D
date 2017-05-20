@@ -12,10 +12,10 @@ public enum Sides
     TOP
 }
 
-public class Tile : MonoBehaviour {
+public class Tile {
     // 1. We need to be able to distinguish each tile from one another,
     // we will therefore need to give them a unique ID. 
-    private int ID = 0;
+    public int ID = 0;
 
     // 2. We will also want to keep track of all 
     // the tiles that are adjacent to this one.
