@@ -5,8 +5,8 @@ using UnityEngine;
 public class Map {
     // 1. We will need to create a few private fields:
     private Tile[] tiles; // First an array of tiles.
-    private int columns; // Secondly a variable to store the width of our map,
-    private int rows; // followed by a variable to store the height of our map.
+    public int columns; // Secondly a variable to store the width of our map,
+    public int rows; // followed by a variable to store the height of our map.
 
     // 2. Define a public method which will create our map.
     public void NewMap(int width, int height) // We pass in a couple of parameters to hold the width and height of the map.
